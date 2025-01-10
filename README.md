@@ -1,5 +1,5 @@
 ![Google Groups](https://img.shields.io/badge/Google%20Groups-blue?style=flat-square&logo=Google&logoColor=white)
-![Automation](https://img.shields.io/badge/Automation-darkorange?style=flat-square&logo=Automattic&logoColor=white)
+![Maildir Compatibility](https://img.shields.io/badge/Maildir_Format-Compatibility-brightgreen)
 
 # google-groups-scan
 Automatically scans user accounts from /etc/passwd, checks for existing Maildir directories, and searches email messages for the X-Google-Group-ID header, extracting and displaying relevant Google Groups data.
