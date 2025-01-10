@@ -1,12 +1,12 @@
 ![Google Groups](https://img.shields.io/badge/Google%20Groups-blue?style=flat-square&logo=Google&logoColor=white)
 ![Automation](https://img.shields.io/badge/Automation-darkorange?style=flat-square&logo=Automattic&logoColor=white)
 
-# google-groups-helpers
+# google-groups-scan
 Automatically scans user accounts from /etc/passwd, checks for existing Maildir directories, and searches email messages for the X-Google-Group-ID header, extracting and displaying relevant Google Groups data.
 
 <!-- TOC -->
 
-- [google-groups-helpers](#google-groups-helpers)
+- [google-groups-scan](#google-groups-scan)
     - [Features](#features)
     - [Use Cases](#use-cases)
     - [Configuration](#configuration)
@@ -61,11 +61,11 @@ sudo dnf install bash grep findutils
 ### Installation
 1. Clone the repository:
     ```sh
-    git clone https://github.com/filipnet/google-groups-helpers.git
+    git clone https://github.com/filipnet/google-groups-scan.git
     ```
 2. Navigate to the project directory:
     ```sh
-    cd google-groups-helpers
+    cd google-groups-scan
     ```
 3. Make the script executable:
     ```sh
@@ -94,4 +94,4 @@ List-ID: List-ID: <foe.zis.ccuvana.name>
 Contributions are welcome! Feel free to submit a pull request or open an issue for any bugs or feature requests.
 
 ## License
-google-groups-helper and all individual scripts are under the BSD 3-Clause license unless explicitly noted otherwise. Please refer to the [LICENSE](LICENSE).
+google-groups-scan and all individual scripts are under the BSD 3-Clause license unless explicitly noted otherwise. Please refer to the [LICENSE](LICENSE).
