@@ -2,7 +2,7 @@
 ![Automation](https://img.shields.io/badge/Automation-darkorange?style=flat-square&logo=Automattic&logoColor=white)
 
 # google-groups-helpers
-Scripts and tools for managing and analyzing Google Groups efficiently.
+Automatically scans user accounts from /etc/passwd, checks for existing Maildir directories, and searches email messages for the X-Google-Group-ID header, extracting and displaying relevant Google Groups data.
 
 <!-- TOC -->
 
